@@ -15,7 +15,7 @@ COMENTADOR
 *nombre
 
 
-Reglas:
+Reglas:  
 
 un comentario pertenece a un post
 un post puede tener muchos comentarios
