@@ -1,0 +1,26 @@
+Crear los dominios 
+
+POST
+*titulo   (requerido)
+*contenido  (requerido)
+*modificado 
+*publicado
+
+COMENTARIO
+*contenido 
+*publicado
+*comentador
+
+COMENTADOR
+*nombre
+
+
+Reglas:
+
+un comentario pertenece a un post
+un post puede tener muchos comentarios
+un comentario tiene un comentador
+un comentador pertenece a un comentario
+
+
+
