@@ -1,6 +1,5 @@
 package org.javamexico.grailstest
-
-class PostController {
-
-    def index() { }
+class PostController
+{
+    def scaffold = Post
 }

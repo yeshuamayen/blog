@@ -1,6 +1,5 @@
 package org.javamexico.grailstest
-
-class ComentarioController {
-
-    def index() { }
+class ComentarioController
+{
+    def scaffold = Comentario
 }
