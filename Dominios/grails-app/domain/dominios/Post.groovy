@@ -1,4 +1,4 @@
-package org.javamexico.grailstest
+package dominios
 
 class Post {
 
@@ -8,7 +8,7 @@ class Post {
     String Publicado
 
     static constraints = {
-        Titulo(blank:false)
-        Contenido(blank:false)
+//        Titulo(blank:false)
+  //      Contenido(blank:false)
     }
 }

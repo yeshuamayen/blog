@@ -1,4 +1,4 @@
-package org.javamexico.grailstest
+package dominios
 class ComentadorController
 {
     def scaffold = Comentador
