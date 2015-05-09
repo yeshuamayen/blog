@@ -4,6 +4,7 @@
 		<meta name="layout" content="main">
 		<g:set var="entityName" value="${message(code: 'post.label', default: 'Post')}" />
 		<title><g:message code="default.create.label" args="[entityName]" /></title>
+        <g:javascript library="jquery" plugin="jquery"/>
 	</head>
 	<body>
 		<a href="#create-post" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>

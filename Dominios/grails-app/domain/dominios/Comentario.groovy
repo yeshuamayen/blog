@@ -4,7 +4,9 @@ class Comentario {
 
     String Contenido
     String Publicado
-    String Contmentador
+    Comentador Comentador
+
+    static belongsTo = [post:Post]
 
     static constraints = {
     }

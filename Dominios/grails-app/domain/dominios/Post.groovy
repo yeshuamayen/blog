@@ -3,12 +3,16 @@ package dominios
 class Post {
 
     String Titulo
-    String Contenido
-    String modificado
+    Comentario Contenido
+    String Modificado
     String Publicado
 
+    static hasMany = [comentario: Comentario]
+
     static constraints = {
-//        Titulo(blank:false)
-  //      Contenido(blank:false)
+
+    }
+    String toString(){
+        "$Titulo $Contenido $Modificado $Publicado"
     }
 }
